@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
+.App {
+  height: 100vh;
+  width: 100%;
+  font-family: 'Lora', serif;
+  background: #f0f0f0;
+  color: #111111;
+}
+
+.darkTheme {
+  background: #111111;
+  color: #f0f0f0;
+}
+
+.Sidebar {
+  position: fixed;
+  padding: 10px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.actionBtn {
+  opacity: .33;
+  margin: 15px 10px;
+}
+
+.actionBtn:hover {
+  opacity: .8;
+}
+
+.links {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: inherit;
+}
+
+.Editor {
+  margin: 0px auto;
+  padding: 20px 0px;
+  max-width: 600px;
+  font-size: 1.2em;
+}
+
+h1,
+article {
+  outline: none;
+  word-wrap: break-word;
+}
+
+article {
+  min-height: 40vh;
+}
+
+.githubLink:hover {
+  color: #5e5cff;
+}
